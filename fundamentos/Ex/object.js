@@ -7,7 +7,7 @@ console.log(prod1)
 
 
 
-// Isso não é JSON
+// Isso não é JSON e sim um objeto de chave e valor JavaScript
 const prod2 = {
     nome: 'Camisa Polo',
     preco: 79.90

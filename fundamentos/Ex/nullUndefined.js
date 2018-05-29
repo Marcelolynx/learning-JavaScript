@@ -25,7 +25,17 @@ let valor
 console.log(valor)
 
 // não tem endereço de memória
-valor = null
+valor = 0
 console.log(valor)
 console.log(valor.toString)
 // não é boa prática definir uma variavel como undefined para variaveis, no caso deve usar null para variaveis vazias
+
+const produto = {}
+console.log(!!produto.preco)
+console.log(produto)
+
+produto.preco = undefined // evitar usar undefined deixar a linguagem usar undefined, optar por null ou zero
+
+produto.preco = 0 // sem preço
+console.log(!!produto.preco)
+console.log(produto)
