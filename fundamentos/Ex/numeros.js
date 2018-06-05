@@ -18,4 +18,4 @@ console.log(media.toString(2)) // transforma em binário
 console.log(typeof media)
 console.log(typeof Number) 
  
-console.log(typeof Number)
+console.log(media)
